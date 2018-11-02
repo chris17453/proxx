@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+proxx/__init__.py
+proxx/cli.py
+proxx.egg-info/PKG-INFO
+proxx.egg-info/SOURCES.txt
+proxx.egg-info/dependency_links.txt
+proxx.egg-info/entry_points.txt
+proxx.egg-info/top_level.txt
