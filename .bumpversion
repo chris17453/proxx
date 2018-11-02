@@ -1,1 +1,0 @@
-[bumpversion] current_version = 1.0.0 files = setup.py commit = False tag = True
