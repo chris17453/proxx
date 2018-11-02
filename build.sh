@@ -1,6 +1,6 @@
 #!/bin/bash
 dir=$(pwd)
-pub=$1
+pub="$1"
 
 
 if [[ $PIPENV_ACTIVE -ne '1' ]];
@@ -9,7 +9,7 @@ then
     then
         export BUILD_O=1
         echo "Going Deeper  -> pipenv shell"
-        pipenv run ./build.sh
+        pipenv run ./build.sh $pub
         exit 0
     fi
 fi
@@ -39,13 +39,23 @@ git commit -m 'Bump Version'
 echo "Bumping Python patch version"
 bumpversion patch --allow-dirty
 if [[ $? -ne 0 ]]; then
-    pipenv install bumpbversion
     
-echo [bumpversion] \
-current_version = 1.0.0 \
-files = setup.py \
-commit = False \
-tag = True >.bumpversion
+    ver="$(pipenv run pip show pip | grep Version)"
+    echo $ver
+#    if [[ "$ver" != "Version: 18.0" ]];
+#    then
+#        echo "reinstall"
+#        pipenv install pip==18
+#    fi
+    
+    pipenv install bumpversion pip==18
+
+    
+echo [bumpversion] \n
+current_version = 1.0.0 \n\
+files = setup.py \n\
+commit = False \n\
+tag = True \n>.bumpversion
 git add .bumpversion
 git commit -m 'BumpVersion Config'
 
@@ -54,7 +64,7 @@ fi
 echo "Build the package"
 python setup.py sdist
 
-
+echo "---$pub"
 if [[ ! -z "$pub" ]]; then
     echo "Upload the package"
     twine upload  dist/*
