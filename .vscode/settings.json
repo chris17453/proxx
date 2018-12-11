@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "/home/nd/.local/share/virtualenvs/datareports-5QDJEL9d/bin/python"
+    "python.pythonPath": "/home/nd/.local/share/virtualenvs/datareports-5QDJEL9d/bin/python",
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": false
 }

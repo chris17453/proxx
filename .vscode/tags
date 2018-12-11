@@ -1,0 +1,115 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BOLD	../proxx/common.py	/^    BOLD = '\\033[1m'$/;"	kind:variable	line:12
+ENDC	../proxx/common.py	/^    ENDC = '\\033[0m'$/;"	kind:variable	line:11
+FAIL	../proxx/common.py	/^    FAIL = '\\033[91m'$/;"	kind:variable	line:10
+HEADER	../proxx/common.py	/^    HEADER = '\\033[95m'$/;"	kind:variable	line:6
+OKBLUE	../proxx/common.py	/^    OKBLUE = '\\033[94m'$/;"	kind:variable	line:7
+OKGREEN	../proxx/common.py	/^    OKGREEN = '\\033[92m'$/;"	kind:variable	line:8
+UNDERLINE	../proxx/common.py	/^    UNDERLINE = '\\033[4m'$/;"	kind:variable	line:13
+WARNING	../proxx/common.py	/^    WARNING = '\\033[93m'$/;"	kind:variable	line:9
+__init__.py	../proxx/__init__.py	1;"	kind:file	line:1
+_globals.py	../proxx/_globals.py	1;"	kind:file	line:1
+am_i_behind_a_proxy	../proxx/common.py	/^def am_i_behind_a_proxy():$/;"	kind:function	line:47
+app_docker	../proxx/cli.py	/^import app_docker$/;"	kind:namespace	line:9
+app_docker.py	../proxx/app_docker.py	1;"	kind:file	line:1
+app_git	../proxx/cli.py	/^import app_git   $/;"	kind:namespace	line:10
+app_git.py	../proxx/app_git.py	1;"	kind:file	line:1
+app_gradel	../proxx/cli.py	/^import app_gradel$/;"	kind:namespace	line:11
+app_gradel.py	../proxx/app_gradel.py	1;"	kind:file	line:1
+app_maven	../proxx/cli.py	/^import app_maven $/;"	kind:namespace	line:12
+app_maven.py	../proxx/app_maven.py	1;"	kind:file	line:1
+app_npm	../proxx/cli.py	/^import app_npm   $/;"	kind:namespace	line:13
+app_npm.py	../proxx/app_npm.py	1;"	kind:file	line:1
+app_shell	../proxx/cli.py	/^import app_shell $/;"	kind:namespace	line:14
+app_shell.py	../proxx/app_shell.py	1;"	kind:file	line:1
+app_yarn	../proxx/cli.py	/^import app_yarn  $/;"	kind:namespace	line:15
+app_yarn.py	../proxx/app_yarn.py	1;"	kind:file	line:1
+apps	../proxx/_globals.py	/^apps={$/;"	kind:variable	line:16
+apps	../proxx/app_docker.py	/^from _globals import apps$/;"	kind:namespace	line:3
+apps	../proxx/app_git.py	/^from _globals import apps$/;"	kind:namespace	line:3
+apps	../proxx/app_gradel.py	/^from _globals import apps$/;"	kind:namespace	line:3
+apps	../proxx/app_maven.py	/^from _globals import apps$/;"	kind:namespace	line:3
+apps	../proxx/app_npm.py	/^from _globals import apps$/;"	kind:namespace	line:3
+apps	../proxx/app_shell.py	/^from _globals import apps$/;"	kind:namespace	line:4
+apps	../proxx/app_yarn.py	/^from _globals import apps$/;"	kind:namespace	line:2
+apps	../proxx/cli.py	/^from _globals import apps$/;"	kind:namespace	line:6
+apps	../proxx/common.py	/^from _globals import apps$/;"	kind:namespace	line:3
+apps	../proxx/configuration.py	/^from _globals import apps$/;"	kind:namespace	line:6
+argparse	../proxx/cli.py	/^import argparse $/;"	kind:namespace	line:1
+args	../proxx/cli.py	/^    args = parser.parse_args()$/;"	kind:variable	line:47
+author	../setup.py	/^    author= 'Charles Watkins',$/;"	kind:variable	line:12
+author_email	../setup.py	/^    author_email= 'charles@titandws.com',$/;"	kind:variable	line:13
+bcolors	../proxx/common.py	/^class bcolors:$/;"	kind:class	line:5
+call	../proxx/app_docker.py	/^from  subprocess import call$/;"	kind:namespace	line:1
+call	../proxx/app_git.py	/^from subprocess import call$/;"	kind:namespace	line:1
+call	../proxx/app_gradel.py	/^from subprocess import call$/;"	kind:namespace	line:1
+call	../proxx/app_maven.py	/^from subprocess import call$/;"	kind:namespace	line:1
+call	../proxx/app_npm.py	/^from subprocess import call$/;"	kind:namespace	line:1
+call	../proxx/app_shell.py	/^from subprocess import call$/;"	kind:namespace	line:2
+call	../proxx/app_yarn.py	/^from subprocess import call$/;"	kind:namespace	line:1
+call	../proxx/cli.py	/^from subprocess import call$/;"	kind:namespace	line:4
+call	../proxx/common.py	/^from subprocess import call$/;"	kind:namespace	line:2
+call	../proxx/configuration.py	/^from subprocess import call$/;"	kind:namespace	line:3
+cli.py	../proxx/cli.py	1;"	kind:file	line:1
+common	../proxx/app_docker.py	/^import common$/;"	kind:namespace	line:2
+common	../proxx/app_git.py	/^import common$/;"	kind:namespace	line:2
+common	../proxx/app_gradel.py	/^import common$/;"	kind:namespace	line:2
+common	../proxx/app_maven.py	/^import common$/;"	kind:namespace	line:2
+common	../proxx/app_npm.py	/^import common$/;"	kind:namespace	line:2
+common	../proxx/app_shell.py	/^import common$/;"	kind:namespace	line:3
+common	../proxx/app_yarn.py	/^import common$/;"	kind:namespace	line:3
+common	../proxx/cli.py	/^import common$/;"	kind:namespace	line:8
+common	../proxx/configuration.py	/^import common$/;"	kind:namespace	line:4
+common.py	../proxx/common.py	1;"	kind:file	line:1
+config_changed	../proxx/cli.py	/^            config_changed=True$/;"	kind:variable	line:70
+config_changed	../proxx/cli.py	/^            config_changed=True$/;"	kind:variable	line:75
+config_changed	../proxx/cli.py	/^    config_changed=False$/;"	kind:variable	line:48
+configparser	../proxx/cli.py	/^import configparser$/;"	kind:namespace	line:2
+configparser	../proxx/configuration.py	/^import configparser$/;"	kind:namespace	line:2
+configuration	../proxx/cli.py	/^import configuration$/;"	kind:namespace	line:7
+configuration.py	../proxx/configuration.py	1;"	kind:file	line:1
+configure	../proxx/app_docker.py	/^def configure():$/;"	kind:function	line:5
+configure	../proxx/app_git.py	/^def configure():$/;"	kind:function	line:5
+configure	../proxx/app_npm.py	/^def configure():$/;"	kind:function	line:5
+configure	../proxx/app_shell.py	/^def configure():$/;"	kind:function	line:8
+configure	../proxx/app_yarn.py	/^def configure():$/;"	kind:function	line:5
+create_dir	../proxx/common.py	/^def create_dir(path):$/;"	kind:function	line:42
+create_file	../proxx/common.py	/^def create_file(path,filename,data):$/;"	kind:function	line:36
+description	../setup.py	/^    description= '',$/;"	kind:variable	line:14
+include_package_data	../setup.py	/^    include_package_data=True,$/;"	kind:variable	line:8
+install_requires	../setup.py	/^    install_requires=[$/;"	kind:variable	line:15
+is_cmd_installed	../proxx/common.py	/^def is_cmd_installed(cmd):$/;"	kind:function	line:29
+is_docker	../proxx/cli.py	/^    is_docker=common.is_this_a_docker()$/;"	kind:variable	line:50
+is_this_a_docker	../proxx/common.py	/^def is_this_a_docker():$/;"	kind:function	line:51
+license	../setup.py	/^    license='Creative Commons Attribution-Noncommercial-Share Alike license',$/;"	kind:variable	line:10
+load_config	../proxx/configuration.py	/^def load_config():$/;"	kind:function	line:10
+long_description	../setup.py	/^    long_description=open('README.md').read(),$/;"	kind:variable	line:11
+msg	../proxx/common.py	/^def msg(title,data,type='ok'):$/;"	kind:function	line:16
+name	../setup.py	/^    name='proxx',$/;"	kind:variable	line:5
+os	../proxx/app_shell.py	/^import os$/;"	kind:namespace	line:1
+os	../proxx/cli.py	/^import os$/;"	kind:namespace	line:3
+os	../proxx/common.py	/^import os$/;"	kind:namespace	line:1
+os	../proxx/configuration.py	/^import os$/;"	kind:namespace	line:1
+packages	../setup.py	/^    packages=['proxx',],$/;"	kind:variable	line:7
+parser	../proxx/cli.py	/^    parser = argparse.ArgumentParser("proxx", usage='%(prog)s [options]'$/;"	kind:variable	line:19
+print_config	../proxx/common.py	/^def print_config(config):$/;"	kind:function	line:58
+proxy	../proxx/cli.py	/^    proxy=configuration.set_proxy(  http_proxy =args.proxy      ,http_port =args.port      ,http_username =args.username      ,http_password =args.password,$/;"	kind:variable	line:62
+proxy_var	../proxx/_globals.py	/^proxy_var={$/;"	kind:variable	line:3
+proxy_var	../proxx/configuration.py	/^from _globals import proxy_var$/;"	kind:namespace	line:5
+remove_section	../proxx/configuration.py	/^                        remove_section=False$/;"	kind:variable	line:61
+remove_section	../proxx/configuration.py	/^            remove_section=True$/;"	kind:variable	line:55
+save_config	../proxx/configuration.py	/^def save_config():$/;"	kind:function	line:31
+set_proxy	../proxx/configuration.py	/^def set_proxy(http_proxy ="127.0.0.1",http_port ="3128",http_username =None,http_password=None,$/;"	kind:function	line:109
+set_targets	../proxx/configuration.py	/^def set_targets(config):$/;"	kind:function	line:74
+setup	../setup.py	/^from setuptools import setup$/;"	kind:namespace	line:1
+setup.py	../setup.py	1;"	kind:file	line:1
+updates	../proxx/cli.py	/^    updates=[]$/;"	kind:variable	line:65
+url	../setup.py	/^    url='https:\/\/github.com\/chris17453\/proxx\/',$/;"	kind:variable	line:9
+use_proxy	../proxx/cli.py	/^    use_proxy=True$/;"	kind:variable	line:49
+value	../proxx/configuration.py	/^                        value="{0}".format(apps[key][sub_key])$/;"	kind:variable	line:59
+version	../setup.py	/^    version='1.0.0',$/;"	kind:variable	line:6
